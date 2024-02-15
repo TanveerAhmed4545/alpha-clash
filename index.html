@@ -87,13 +87,13 @@
                 Life
                 <img src="./images/Group.png" alt="">
                 
-                <span>1</span>
+                <span id="lifeScore">5</span>
               </button>
 
               <button class="btn bg-[#360490] border-none text-white rounded-full">
                 Score
                 <img src="./images/monetization.png" alt="">
-                <span>1</span>
+                <span id="liveScore">0</span>
               </button>
           </div>
 
@@ -101,13 +101,13 @@
 
     </section>
     <!-- score -->
-    <section class="score flex  justify-center items-center min-h-screen hidden">
+    <section id="scoreArea" class="score flex  justify-center items-center min-h-screen hidden">
         <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-11 rounded-2xl">
             <h1 class="text-8xl">
                 <span class="font-extrabold">Score :</span>
-                <span>14</span>
+                <span id="scoreBoard">0</span>
             </h1>
-            <button class="btn">Play Again</button>
+            <button onclick="play()" class="btn">Play Again</button>
             <p>Practice will make you Pro</p>
         </div>
     </section>
